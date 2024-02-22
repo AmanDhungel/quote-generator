@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .App-logo {
@@ -35,4 +39,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+@media only screen and (max-width:600px)  {
+  body{
+   height: 500px;
+  }
+
+ .container{
+   max-width: 230px;
+   min-height: 110px;
+   text-align: center;
+ }
+
+ .container #quote{
+   min-height: 100px;
+   margin-top: 20px;
+ }
+ 
 }
